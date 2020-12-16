@@ -14,11 +14,11 @@ body {
 }
 
 a {
-  color: #7cc576;
+  color: black;
 }
 
 a:hover {
-  color: #9ed49a;
+  color: #0076CE;
   text-decoration: none;
 }
 
@@ -124,7 +124,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav-menu .nav-inner {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
 }
 
@@ -136,7 +136,18 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
   position: relative;
   color: #151515;
-  padding: 15px 15px;
+  padding: 15px 35px;
+  transition: 0.3s;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-family: "Open Sans", sans-serif;
+}
+
+.top-nav-menu a {
+  display: block;
+  position: relative;
+  color: #151515;
+  padding: 15px 15px !important;
   transition: 0.3s;
   font-size: 15px;
   text-transform: uppercase;
@@ -144,7 +155,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-  color: #7cc576;
+  color: #0076CE;
   text-decoration: none;
 }
 
@@ -181,7 +192,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul .active > a, .nav-menu .drop-down ul li:hover > a {
-  color: #7cc576;
+  color: #0076CE;
 }
 
 .nav-menu .drop-down > a:after {
@@ -213,6 +224,17 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Mobile Navigation */
+.my-mobile-nav {
+  display: inline-block;
+  position: relative;
+  color: #151515;
+  padding: 15px 15px !important;
+  transition: 0.3s;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-family: "Open Sans", sans-serif;
+}
+
 .mobile-nav-toggle {
   position: fixed;
   right: 15px;
@@ -229,7 +251,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav-toggle i {
-  color: #7cc576;
+  color: #0076CE;
 }
 
 .mobile-nav {
@@ -264,7 +286,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
-  color: #7cc576;
+  color: #0076CE;
   text-decoration: none;
 }
 
