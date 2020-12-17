@@ -692,4 +692,20 @@ p{
   font-weight:normal;
   color:black;
 }
-  
+
+.text-muted{
+  color:#ffe81b;
+}
+
+button{
+  background-color:#256EFF;
+  color:white;
+  font-family:roboto, sans-serif;
+  border-color:#256EFF;
+  border-radius: 8px;
+
+}
+
+button:hover{
+  background-color:#004EE8;
+}
