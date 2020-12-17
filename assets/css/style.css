@@ -127,12 +127,8 @@ path:hover {
 
 .nav-menu .nav-inner {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
-}
-
-.nav-menu .nav-logo {
-  padding: 0 20px;
 }
 
 .nav-menu a {
