@@ -679,3 +679,70 @@ body {
 body {
   padding-top: 56px;
 }
+
+    /*!
+ * Start Bootstrap - Shop Homepage (https://startbootstrap.com/template/shop-homepage)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-shop-homepage/blob/master/LICENSE)
+ */
+
+.row{
+  display:flex;
+  justify-content: center;
+  padding:50px;
+}
+
+.add-cart{
+  background-color:#256EFF;
+  color:white;
+  font-family:roboto, sans-serif;
+  border-color:#256EFF;
+  border-radius: 8px;
+  justify-content: center;
+  display:flex;
+  padding:10px;
+  width:50%;
+
+}
+
+.add-cart:focus{
+  background-color:#004EE8;
+  cursor:pointer;
+}
+
+.add-cart:hover{
+  background-color:#004EE8;
+  cursor:pointer;
+}
+
+.add-cart:active{
+  background-color:#004EE8;
+  cursor:pointer;
+}
+
+.view-details{
+  background-color:#ffffff;
+  color:#256EFF;
+  font-family:roboto, sans-serif;
+  border-color:#256EFF;
+  border:1px;
+  border-style:solid;
+  border-radius: 8px;
+  justify-content: center;
+  display:flex;
+  padding:10px;
+  width:50%;
+  margin-top:5px;
+}
+
+.view-details:hover{
+  background-color:#f8f9fa;
+  cursor:pointer;
+}
+
+.byo1-title{
+  display:flex;
+  justify-content: center;
+  padding:10px;
+  margin-top:50px;
+}
