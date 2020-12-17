@@ -627,3 +627,46 @@ body {
     font-size: 13px;
     padding-top: 5px;
   }
+
+  h1{
+    font-family: Roboto, sans-serif;
+    font-size:50px;
+    font-weight:bold;
+    color:black;
+  }
+  
+  h2{
+    font-family: Roboto, sans-serif;
+    font-size:38px;
+    font-weight:medium;
+    color:black;
+  }
+  
+  h3{
+    font-family: Roboto, sans-serif;
+    font-size:28px;
+    font-weight:normal;
+    color:black;
+  }
+  
+  h4{
+      font-family: Roboto, sans-serif;
+      font-size:21px;
+      font-weight:normal;
+      color:black;
+    }
+  
+  h5{
+    font-family: Roboto, sans-serif;
+    font-size:14px;
+    font-weight:medium;
+    color:black;
+    text-transform: uppercase;
+  }
+  
+  p{
+    font-family: Roboto, sans-serif;
+    font-size:11px;
+    font-weight:normal;
+    color:black;
+  }
