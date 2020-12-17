@@ -627,3 +627,133 @@ body {
     font-size: 13px;
     padding-top: 5px;
   }
+
+    /*!
+ * Start Bootstrap - Shop Homepage (https://startbootstrap.com/template/shop-homepage)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-shop-homepage/blob/master/LICENSE)
+ */
+body {
+  padding-top: 56px;
+}
+
+.row{
+  display:flex;
+  justify-content: center;
+  padding:50px;
+}
+
+.compare-title{
+  display:flex;
+  justify-content:center;
+  padding:20px;
+  margin-top:50px;
+}
+
+h1{
+  font-family: Roboto, sans-serif;
+  font-size:50px;
+  font-weight:bold;
+  color:black;
+}
+
+h2{
+  font-family: Roboto, sans-serif;
+  font-size:38px;
+  font-weight:medium;
+  color:black;
+}
+
+h3{
+  font-family: Roboto, sans-serif;
+  font-size:28px;
+  font-weight:normal;
+  color:black;
+}
+
+h4{
+    font-family: Roboto, sans-serif;
+    font-size:21px;
+    font-weight:normal;
+    color:black;
+  }
+
+h5{
+  font-family: Roboto, sans-serif;
+  font-size:14px;
+  font-weight:medium;
+  color:black;
+  text-transform: uppercase;
+}
+
+p{
+  font-family: Roboto, sans-serif;
+  font-size:11px;
+  font-weight:normal;
+  color:black;
+}
+
+.add-cart{
+  background-color:#256EFF;
+  color:white;
+  font-family:roboto, sans-serif;
+  border-color:#256EFF;
+  border-radius: 8px;
+  justify-content: center;
+  display:flex;
+  padding:10px;
+  width:50%;
+
+}
+
+.add-cart:focus{
+  background-color:#004EE8;
+  cursor:pointer;
+}
+
+.add-cart:hover{
+  background-color:#004EE8;
+  cursor:pointer;
+}
+
+.add-cart:active{
+  background-color:#004EE8;
+  cursor:pointer;
+}
+
+.byo1-title{
+  display:flex;
+  justify-content: center;
+  padding:10px;
+  margin-top:50px;
+}
+
+.byo1-description{
+  display:flex;
+  justify-content: center;
+  margin-bottom:70px;
+}
+
+.byo1-heading{
+  margin-left:50px;
+}
+
+.view-details{
+  background-color:#ffffff;
+  color:#256EFF;
+  font-family:roboto, sans-serif;
+  border-color:#256EFF;
+  border:1px;
+  border-style:solid;
+  border-radius: 8px;
+  justify-content: center;
+  display:flex;
+  padding:10px;
+  width:50%;
+  margin-top:5px;
+}
+
+.view-details:hover{
+  background-color:#f8f9fa;
+  cursor:pointer;
+}
