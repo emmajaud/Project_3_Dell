@@ -1,15 +1,8 @@
-/**
-* Template Name: Knight - v2.2.0
-* Template URL: https://bootstrapmade.com/knight-free-bootstrap-theme/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #555555;
 }
 
@@ -23,7 +16,17 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+
+path:hover {
+  fill: #0076CE !important;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /*--------------------------------------------------------------
@@ -45,13 +48,13 @@ h1, h2, h3, h4, h5, h6 {
   width: 40px;
   height: 40px;
   border-radius: 4px;
-  background: #7cc576;
+  background: #0076CE;
   color: #fff;
   transition: all 0.4s;
 }
 
 .back-to-top i:hover {
-  background: #61b959;
+  background: #0076CE;
   color: #fff;
 }
 
@@ -68,7 +71,7 @@ h1, h2, h3, h4, h5, h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  height: 200px;
+  height: 180px;
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
@@ -140,7 +143,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.3s;
   font-size: 15px;
   text-transform: uppercase;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .top-nav-menu a {
@@ -151,7 +154,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.3s;
   font-size: 15px;
   text-transform: uppercase;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 .checkout {
   margin-right: 20px;
@@ -232,11 +235,12 @@ h1, h2, h3, h4, h5, h6 {
   display: inline-block;
   position: relative;
   color: #151515;
-  padding: 15px 15px !important;
+  padding-top: 15px 15px !important;
+  margin-left: 15px;
   transition: 0.3s;
   font-size: 15px;
   text-transform: uppercase;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .mobile-nav-toggle {
@@ -351,7 +355,8 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.png");
+  background: url("../dell_images/header.png");
+  background-size: cover;
   position: relative;
 }
 
@@ -390,9 +395,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .btn-get-started {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Roboto', sans-serif;
   text-transform: uppercase;
-  font-weight: 400;
+  font-weight: 800;
   font-size: 16px;
   letter-spacing: 1px;
   display: inline-block;
@@ -400,13 +405,13 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 3px;
   transition: 0.5s;
   margin: 10px;
-  color: #fff;
-  background: #7cc576;
+  color: #256eff;
+  background: #fff;
 }
 
 #hero .btn-get-started:hover {
-  background: #fff;
-  color: #7cc576;
+  background: #256eff;
+  color: #fff;
 }
 
 @media (min-width: 1024px) {
@@ -456,39 +461,7 @@ section {
   color: #aeaeae;
 }
 
-/*--------------------------------------------------------------
-# About Us
---------------------------------------------------------------*/
-.about .image {
-  padding: 20px;
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-}
 
-.about .content h3 {
-  font-weight: 600;
-  font-size: 26px;
-}
-
-.about .content ul {
-  list-style: none;
-  padding: 0;
-}
-
-.about .content ul li {
-  padding-bottom: 10px;
-  display: flex;
-  align-items: flex-start;
-}
-
-.about .content ul i {
-  font-size: 24px;
-  padding: 2px 6px 0 0;
-  color: #7cc576;
-}
-
-.about .content p:last-child {
-  margin-bottom: 0;
-}
 
 
 
@@ -497,133 +470,74 @@ section {
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
+.footer-title {
+  color: white !important;
+  text-align: left !important;
+}
+.footer-title:hover {
+  text-decoration: underline !important;
+}
+
 #footer {
-  background-color: black;
+  background-color: #020887;
   /*background: url("../img/footer-bg.jpg") center center no-repeat;*/
   color: #fff;
   font-size: 14px;
   position: relative;
 }
 
-#footer::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.85);
-  z-index: 1;
-}
-
 #footer .footer-top {
+  padding: 60px 0 30px 0;
   position: relative;
-  z-index: 2;
-  text-align: center;
-  padding: 80px 0;
 }
 
-#footer .footer-top .footer-logo img {
-  height: 80px;
+#footer .footer-top .footer-contact {
+  margin-bottom: 30px;
 }
 
-#footer .footer-top h3 {
-  font-size: 36px;
-  font-weight: 700;
-  color: #fff;
-  position: relative;
-  font-family: "Poppins", sans-serif;
-  padding: 30px 0 0 0;
-  margin-bottom: 0;
-}
-
-#footer .footer-top p {
-  font-size: 15;
-  font-style: italic;
-  margin: 30px 0 0 0;
-  padding: 0;
-}
-
-#footer .footer-top .footer-newsletter {
-  text-align: center;
-  font-size: 15px;
-  margin-top: 30px;
-}
-
-#footer .footer-top .footer-newsletter form {
-  background: #fff;
-  padding: 6px 10px;
-  position: relative;
-  border-radius: 50px;
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-  text-align: left;
-}
-
-#footer .footer-top .footer-newsletter form input[type="email"] {
-  border: 0;
-  padding: 4px 8px;
-  width: calc(100% - 100px);
-}
-
-#footer .footer-top .footer-newsletter form input[type="submit"] {
-  position: absolute;
-  top: 0;
-  right: -1px;
-  bottom: 0;
-  border: 0;
-  background: none;
+#footer .footer-top h4 {
   font-size: 16px;
-  padding: 0 20px;
-  background: #7cc576;
-  color: #fff;
-  transition: 0.3s;
-  border-radius: 50px;
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-}
-
-#footer .footer-top .footer-newsletter form input[type="submit"]:hover {
-  background: #5ab652;
-}
-
-#footer .footer-top .social-links {
-  margin-top: 30px;
-}
-
-#footer .footer-top .social-links a {
-  font-size: 18px;
-  display: inline-block;
-  background: #7cc576;
-  color: #fff;
-  line-height: 1;
-  padding: 8px 0;
-  margin-right: 4px;
-  border-radius: 50%;
-  text-align: center;
-  width: 36px;
-  height: 36px;
-  transition: 0.3s;
-}
-
-#footer .footer-top .social-links a:hover {
-  background: #5ab652;
-  color: #fff;
-  text-decoration: none;
-}
-
-#footer .footer-bottom {
-  border-top: 1px solid #222222;
-  z-index: 2;
+  font-weight: bold;
   position: relative;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-bottom: 12px;
 }
 
-#footer .copyright {
-  text-align: center;
+#footer .footer-top .footer-links {
+  margin-bottom: 30px;
 }
 
-#footer .credits {
-  text-align: center;
-  font-size: 13px;
-  padding-top: 5px;
+#footer .footer-top .footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
+
+#footer .footer-top .footer-links ul i {
+  padding-right: 2px;
+  color: #fff;
+  font-size: 18px;
+  line-height: 1;
+}
+
+#footer .footer-top .footer-links ul li {
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+#footer .footer-top .footer-links ul li:first-child {
+  padding-top: 0;
+}
+
+#footer .footer-top .footer-links ul a {
+  color: rgba(255, 255, 255, 0.8);
+  transition: 0.3s;
+  display: inline-block;
+  line-height: 1;
+}
+
+#footer .footer-top .footer-links ul a:hover {
+  text-decoration: underline;
+  color: #fff;
+}
+
