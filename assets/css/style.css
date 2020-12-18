@@ -29,6 +29,15 @@ path:hover {
   align-items: center;
 }
 
+#grad1 {
+  height: 100%;
+  width: 100%;
+  background-color: #1fc8db;
+  background-image: linear-gradient(140deg, #020887 0%, #5f45bf 50%, #2932d9 75%);
+  color: white;
+  opacity: 0.95;
+}
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -71,7 +80,7 @@ path:hover {
 # Header
 --------------------------------------------------------------*/
 #header {
-  height: 180px;
+  height: 140px;
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
@@ -135,7 +144,7 @@ path:hover {
   display: block;
   position: relative;
   color: #151515;
-  padding: 15px 35px;
+  padding: 8px 35px;
   transition: 0.3s;
   font-size: 15px;
   text-transform: uppercase;
@@ -146,7 +155,7 @@ path:hover {
   display: block;
   position: relative;
   color: #151515;
-  padding: 15px 15px !important;
+  padding: 8px 15px !important;
   transition: 0.3s;
   font-size: 15px;
   text-transform: uppercase;
@@ -459,7 +468,83 @@ section {
 
 
 
+/*--------------------------------------------------------------
+# Cards
+--------------------------------------------------------------*/
+.content {
+  padding: 50px;
+}
+.sectionHeading {
+  color: black;
+  text-align: left;
+}
+.products {
+  padding: 0px 30px 30px 30px;
+}
+.card-img-2 {
+  position: absolute;
+  background: url("../dell_images/Keyboard-3.jpg");
+  height: 100px;
+}
+.img-center {
+  padding: 24px;
+}
+.cardContainer {
+  text-align: center;
+}
+.card {
+  margin-top: 32px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card:hover{
+  transform: scale(1.05);
+  transition-duration: .4s;
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
 
+.byo-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 24px 0 24px !important;
+}
+/*BYO Card button*/
+#byo-card-id .btn-get-started {
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 14px 30px;
+  border-radius: 3px;
+  transition: 0.5s;
+  color: #256eff;
+  background: #fff;
+}
+#byo-card-id .btn-get-started:hover {
+  background: #256eff;
+  color: #fff;
+}
+/* Featured Card Button*/
+#featured-card-id .btn-get-started {
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 14px 30px;
+  border-radius: 3px;
+  transition: 0.5s;
+  color: #fff;
+  background: #256eff;
+}
+
+#featured-card-id .btn-get-started:hover {
+  background: #020887;
+  color: #fff;
+}
 
 
 
@@ -536,4 +621,3 @@ section {
   text-decoration: underline;
   color: #fff;
 }
-
