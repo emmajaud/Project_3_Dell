@@ -1,0 +1,11 @@
+.shipping-checkbox {
+    transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    padding: 10px;
+}
+
+.shipping-checkbox-label {
+    margin-top: 15px;
+    margin-left: 10px;
+}
