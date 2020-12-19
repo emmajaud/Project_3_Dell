@@ -139,37 +139,7 @@
   * ==========================================
   *
   */
-  .footer-link {
-    font-size: 0.85rem;
-    position: relative;
-    color: #999;
-    transition: all 0.3s;
-  }
-  
-  .footer-link:hover, .footer-link:focus {
-    padding-left: 0.6rem;
-    color: #fff;
-    text-decoration: none;
-  }
-  
-  .footer-link:hover::before, .footer-link:focus::before {
-    opacity: 1;
-  }
-  
-  .footer-link::before {
-    content: '\f0da';
-    display: inline-block;
-    font-family: 'Font Awesome\ 5 Free';
-    font-weight: 900;
-    position: absolute;
-    top: 50%;
-    left: 0;
-    -webkit-transform: translateY(-50%);
-    transform: translateY(-50%);
-    color: #fff;
-    transition: all 0.3s;
-    opacity: 0;
-  }
+
   
  
   
@@ -928,119 +898,11 @@
 
 
 
-  /*
-  * . CARD
-  */
-  .card {
-    background-color: #fff;
-    border: 1px solid rgba(17, 17, 17, 0.125);
-    border-radius: 0;
-  }
-  
-  .card > .list-group:first-child .list-group-item:first-child {
-    border-top-left-radius: 0;
-    border-top-right-radius: 0;
-  }
-  
-  .card > .list-group:last-child .list-group-item:last-child {
-    border-bottom-right-radius: 0;
-    border-bottom-left-radius: 0;
-  }
-  
-  .card-body {
-    padding: 1.25rem;
-  }
-  
-  .card-title {
-    margin-bottom: 0.75rem;
-  }
-  
-  .card-subtitle {
-    margin-top: -0.375rem;
-  }
-  
-  .card-link + .card-link {
-    margin-left: 1.25rem;
-  }
-  
-  .card-header {
-    padding: 0.75rem 1.25rem;
-    background-color: rgba(17, 17, 17, 0.03);
-    border-bottom: 1px solid rgba(17, 17, 17, 0.125);
-  }
-  
-  .card-header:first-child {
-    border-radius: calc(0 - 1px) calc(0 - 1px) 0 0;
-  }
-  
-  .card-header-transparent {
-    background-color: rgba(0, 0, 0, 0.3);
-    border-bottom: none;
-  }
-  
-  .card-footer {
-    padding: 0.75rem 1.25rem;
-    background-color: #f8f9fa;
-    border-top: 1px solid rgba(17, 17, 17, 0.125);
-  }
-  
-  .card-footer:last-child {
-    border-radius: 0 0 calc(0 - 1px) calc(0 - 1px);
-  }
-  
-  .card-header-tabs {
-    margin-right: -0.625rem;
-    margin-bottom: -0.75rem;
-    margin-left: -0.625rem;
-    border-bottom: 0;
-  }
-  
-  .card-header-pills {
-    margin-right: -0.625rem;
-    margin-left: -0.625rem;
-  }
-  
-  .card-img-overlay {
-    padding: 1.25rem;
-  }
-  
-  .card-img-overlay-opacity {
-    background: rgba(0, 0, 0, 0.2);
-  }
-  
-  .card-img {
-    border-radius: calc(0 - 1px);
-  }
-  
-  .card-img-top {
-    border-top-left-radius: calc(0 - 1px);
-    border-top-right-radius: calc(0 - 1px);
-  }
-  
-  .card-img-bottom {
-    border-bottom-right-radius: calc(0 - 1px);
-    border-bottom-left-radius: calc(0 - 1px);
-  }
-  
-  .card-deck .card {
-    margin-bottom: 15px;
-  }
-  
-  @media (min-width: 576px) {
-    .card-deck {
-      margin-right: -15px;
-      margin-left: -15px;
-    }
-    .card-deck .card {
-      margin-right: 15px;
-      margin-left: 15px;
-    }
-  }
   
   /* Buttons */
 
   btn-light {
-    color: #212529;
+    color: #256eff;
     background-color: #f8f9fa;
     border-color: #f8f9fa;
   }
@@ -1106,6 +968,46 @@
     background-color: #004ee8;
     border-color: #004ee8;
   }
+
+
+  .varients {
+    display: flex;
+    margin-top: 1.7rem 0rem;
+  }
+
+
+  .var-circle {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin: 1rem;
+    margin-right: 0rem;
+    padding: 2px;
+  }
+
+  .circle{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+  }
+
+  .var-circle .selected{
+    border: 2px solid grey;
+  }
+
+  .var-circle.selected .circle{
+    background: grey;
+  }
+
+  .var-circle .red{
+    background: black;
+  }
+
+  
+
+  
+
+
   
   
   
