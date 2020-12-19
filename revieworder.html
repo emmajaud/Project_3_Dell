@@ -371,9 +371,27 @@
         </div>
 
         <div class="d-flex flex-row-reverse bd-highlight">
-            <button type="button" class="pb-2 col-2 btn btn-primary">Place Order</button>
+            <button type="button" class="pb-2 col-2 btn btn-primary" data-toggle="modal" data-target="#thankYouModal">Place Order</button>
             <button type="button" class="pb-2 col-2 btn btn-outline-primary mr-3">Previous</button>
         </div>
+
+        <!-- Modal -->
+<div class="modal fade" id="thankYouModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content pb-3">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body text-center">
+                <h2>Thank You!</h2>
+                <h4 class="mt-2">Your order was received!</h4>
+                <small>Check your email for a confirmation number and to track shipping.</small>
+            </div>
+        </div>
+    </div>
+  </div>
 
       </div>
     </section><!-- End My Cart Section -->
