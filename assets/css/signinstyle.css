@@ -27,3 +27,21 @@ h2{
 .logIn{
   padding-left: 50px;
 }
+
+.btn-primary{
+  background-color:#256EFF;
+  color:white;
+  font-family:roboto, sans-serif;
+  border-color:#256EFF;
+  border-radius: 8px;
+  justify-content: center;
+  display:flex;
+  padding:10px;
+  width:50%;
+  margin-top: 12px;
+}
+
+.btn-primary:hover{
+  background-color:#004EE8;
+  cursor:pointer;
+}
