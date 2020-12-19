@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Dell Gaming - My Cart</title>
+  <title>Dell Gaming - Review & Place Order</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -20,7 +20,7 @@
   <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
 
-  <!-- Main CSS File -->
+  <!-- Template Main CSS File -->
   <link href="assets/css/home_style.css" rel="stylesheet">
   <link href="assets/css/mycart.css" rel="stylesheet">
 
@@ -129,7 +129,7 @@
           <!-- Hardware Drop Down -->
           <li class="drop-down"><a href="">Hardware</a>
             <ul>
-              <li><a href="#">Build your Own Bundle</a></li>
+              <li><a href="byo1.html">Build your Own Bundle</a></li>
               <li><a href="#">Gaming Desktop</a></li>
               <li><a href="#">Gaming Laptops</a></li>
               <li><a href="#">Gaming Monitors</a></li>
@@ -138,7 +138,7 @@
           </li>
 
           <!-- Compare Nav -->
-          <li><a href="#">Compare</a></li>
+          <li><a href="compare.html">Compare</a></li>
 
           <!-- Deals Drop Down -->
           <li class="drop-down"><a href="">Deals</a>
@@ -175,14 +175,13 @@
 
   <main id="main">
 
-    <!-- ======= My Cart Section ======= -->
+    <!-- ======= Review & Place Order Section ======= -->
     <section id="cart" class="cart">
       <div class="container">
 
         <div class="section-title pb-lg-5" data-aos="fade-up">
-          <h2>My Cart</h2>
+          <h2>Review & Place Order</h2>
         </div>
-
         <h6 class="text-left">5 items</h6>
 
         <div class="row cart-item">
@@ -330,73 +329,109 @@
             </div>
           </div>
 
-          <div class="d-flex align-items-end flex-column bd-highlight">
-            <h5 class="mb-lg-3">Total $3419.96</h5>
-            <button type="button" class="p-3 mb-3 col-3 btn btn-primary">Proceed to Checkout</button>
-            <button type="button" class="p-3 col-3 btn btn-outline-primary">Keep Shopping</button>
-          </div>
+        <div class="row mt-5">   
+            <div class="col-4 p-0">
+                <h5>Billing Address</h5>
+                <p>1234 Street-Drive Rd</p>
+                <p>Austin, Texas, 78704</p>
+                <button type="button" class="col-3 btn btn-outline-primary">Edit</button>
+            </div>
+
+            <div class="col-4">
+                <h5>Shipping Address</h5>
+                <p>1234 Street-Drive Rd</p>
+                <p>Austin, Texas, 78704</p>
+                <button type="button" class="col-3 btn btn-outline-primary">Edit</button>
+            </div>
+        </div>
+
+        <div class="row mt-5">   
+            <div class="col-4 p-0">
+                <h5>Payment Information</h5>
+                <p>XXXX-XXXX-XXXX-3456</p>
+                <p>Exp: 07/21</p>
+                <p>CVV: XXX</p>
+                <button type="button" class="col-3 btn btn-outline-primary">Edit</button>
+            </div>
+
+            <div class="col-4">
+                <h5>Shipping Method</h5>
+                <p>Standard: 3-10 business days (FREE)</p>
+                <button type="button" class="col-3 btn btn-outline-primary">Edit</button>
+            </div>
+        </div>
+          
+
+        <div class="d-flex align-items-end flex-column bd-highlight">
+            <h3 class="mb-lg-3">Total $3419.96</h3>
+        </div>
+
+        <div class="d-flex flex-row-reverse bd-highlight">
+            <button type="button" class="pb-2 col-2 btn btn-primary" data-toggle="modal" data-target="#thankYouModal">Place Order</button>
+            <button type="button" class="pb-2 col-2 btn btn-outline-primary mr-3">Previous</button>
+        </div>
+
+        <!-- Modal -->
+<div class="modal fade" id="thankYouModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content pb-3">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body text-center">
+                <h2>Thank You!</h2>
+                <h4 class="mt-2">Your order was received!</h4>
+                <small>Check your email for a confirmation number and to track shipping.</small>
+            </div>
+        </div>
+    </div>
+  </div>
 
       </div>
     </section><!-- End My Cart Section -->
 
+
   </main><!-- End #main -->
 
-  <!-- ======= FOOTER ======= -->
-  <!-- Footer -->
+  <!-- ======= Footer ======= -->
   <footer id="footer">
+
     <div class="footer-top">
+
       <div class="container">
-        <div class="row">
 
-          <div class="col-lg-3 col-md-6 footer-contact center">
-            <a href="#header" class="scrollto footer-logo"><img src="assets/dell_images/Dell-Logos/Dell-white.png" width="160" alt="classic dell logo"></a>
+        <div class="row justify-content-center">
+          <div class="col-lg-6">
+            <a href="#header" class="scrollto footer-logo"><img src="assets/img/hero-logo.png" alt=""></a>
+            <h3>Knight</h3>
+            <p>Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni eligendi fuga maxime saepe commodi placeat.</p>
           </div>
-
-          <div class="col-lg-2 col-md-12 footer-links">
-            <h5>About Dell</h5>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Dell Technology</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Careers</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Legal & Regulatory</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy Statement</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-2 col-md-12 footer-links">
-            <h5>Services</h5>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Make a Payment</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Return Policy</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Rewards FAQs</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Service Contracts</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-2 col-md-12 footer-links">
-            <h5>Contact Us</h5>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Ads & Emails</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Feedbakc</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-3 col-md-12 footer-links">
-            <h5>Learn About</h5>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Anti-Slavery & Human Trafficking</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Community Events Partner Program</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Free Shipping & Price Match</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Product Recycling</a></li>
-            </ul>
-          </div>
-
-
         </div>
+
+       <!-- <div class="row footer-newsletter justify-content-center">
+          <div class="col-lg-6">
+            <form action="" method="post">
+              <input type="email" name="email" placeholder="Enter your Email"><input type="submit" value="Subscribe">
+            </form>
+          </div>
+        </div> -->
+
+        <div class="social-links">
+          <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+          <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+          <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+          <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+          <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+        </div>
+
       </div>
     </div>
-  </footer> <!-- End Footer -->
 
-  <a href="#main" class="back-to-top"><i class="icofont-simple-up"></i></a>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/jquery/jquery.min.js"></script>
@@ -409,7 +444,7 @@
   <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
 
-  <!-- Main JS File -->
+  <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
 
 </body>
