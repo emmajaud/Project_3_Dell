@@ -11,7 +11,7 @@ a {
 }
 
 a:hover {
-  color: #0076CE;
+  color: #256EFF;
   text-decoration: none;
 }
 
@@ -20,7 +20,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 path:hover {
-  fill: #0076CE !important;
+  fill: #256EFF !important;
 }
 
 .center {
@@ -59,13 +59,13 @@ path:hover {
   width: 40px;
   height: 40px;
   border-radius: 4px;
-  background: #0076CE;
+  background: #256EFF;
   color: #fff;
   transition: all 0.4s;
 }
 
 .back-to-top i:hover {
-  background: #0076CE;
+  background: #004EE8;
   color: #fff;
 }
 
@@ -168,7 +168,7 @@ path:hover {
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-  color: #0076CE;
+  color: #256EFF;
   text-decoration: none;
 }
 
@@ -205,7 +205,7 @@ path:hover {
 }
 
 .nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul .active > a, .nav-menu .drop-down ul li:hover > a {
-  color: #0076CE;
+  color: #256EFF;
 }
 
 .nav-menu .drop-down > a:after {
@@ -266,7 +266,7 @@ path:hover {
 }
 
 .mobile-nav-toggle i {
-  color: #0076CE;
+  color: #256EFF;
 }
 
 .mobile-nav {
@@ -301,7 +301,7 @@ path:hover {
 }
 
 .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
-  color: #0076CE;
+  color: #256EFF;
   text-decoration: none;
 }
 
