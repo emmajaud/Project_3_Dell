@@ -1,0 +1,29 @@
+#main{
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+p{
+  text-align: center;
+}
+
+#step{
+  text-align: center;
+  padding-left: 40%;
+}
+
+h2{
+  text-align: center;
+}
+
+.h4.mb-4{
+  text-align: center;
+  border: none;
+}
+
+.signUp{
+  margin-left: 250px;
+}
+
+.logIn{
+  padding-left: 50px;
+}
