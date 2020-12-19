@@ -710,3 +710,12 @@ p{
   background-color:#004EE8;
   cursor:pointer;
 }
+
+.previous{
+  margin:100px !important;
+  padding:100px !important;
+  font-family: Roboto, sans-serif;
+  font-size:15px;
+  font-weight:normal;
+  color:black;
+}
