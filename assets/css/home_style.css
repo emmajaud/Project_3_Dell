@@ -609,13 +609,14 @@ section {
 }
 
 #footer .footer-top .footer-links ul a {
-  color: rgba(255, 255, 255, 0.8);
-  transition: 0.3s;
-  display: inline-block;
-  line-height: 1;
+  color: rgba(255, 255, 255, 0.8) !important;
+  transition: 0.3s !important;
+  display: inline-block !important;
+  line-height: 1 !important;
+  padding: 0 0 0 0 !important;
 }
 
 #footer .footer-top .footer-links ul a:hover {
-  text-decoration: underline;
-  color: #fff;
+  text-decoration: underline !important;
+  color: #fff !important;
 }

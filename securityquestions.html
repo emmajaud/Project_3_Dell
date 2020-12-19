@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Dell Gaming- Sign In</title>
+  <title>Dell Gaming - Security Questions</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -22,7 +22,7 @@
 
   <!-- Main CSS File -->
   <link href="assets/css/home_style.css" rel="stylesheet">
-  <link href="assets/css/signinstyle.css" rel="stylesheet">
+  <link href="assets/css/security.css" rel="stylesheet">
 
 </head>
 
@@ -174,100 +174,75 @@
   </header><!-- End Header -->
 
     <main id="main">
-      
-      <div class="container">
-          <div class="row">
-            <div class="col-sm-4">
-                <form class="logIn">
-                  
-                  <h2>Log In</h2>
-                  <br>
-                  <div class="form-group">
 
-                    <div class="col">
-                      <input type="email" id="defaultLoginFormEmail" class="form-control mb-4" placeholder="E-mail">
+      <a href="signin.html" class="previous">&#8249; Back </a>
 
-             <!-- Password -->
-            <input type="password" id="defaultLoginFormPassword" class="form-control mb-4" placeholder="Password">
-               </div>
-               <div class="d-flex justify-content-around">
-               <div class="custom-control custom-checkbox">
-                <input type="checkbox" class="custom-control-input" id="defaultLoginFormRemember">
-                <label class="custom-control-label" for="defaultLoginFormRemember">Remember me</label>
-            </div>
-         
-          <div>
+        <div class="container-fluid py-3">
+            <h4>Security Questions</h4>
 
-            <a href="">Forgot password?</a>
-          </div>
-        </div>
-        <div class="form-group text-center">
-        <button class="btn btn-primary btn-lg my-4 " type="submit">Log in</button>
-      </div>      
+            <div class="row">
+                <div class="col-md-6 mx-auto">
+                        <div class="card card-body">
+                            <div class="form-group">
+                            
+                                
+                                    <select class="custom-select">
+                                    <option selected>1. Security Question</option>
+                                
+                            
+                                        <option value="1">What is your favorite flower?</option>
+                                        <option value="2">Do you like cats?</option>
+                                        <option value="3">Can you speak Spanish?</option>
+                                      </select>
+                                    
+                                
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control input-lg" placeholder="Sequrity Answer" name="answer" value="" type="text">
+                            </div> 
+                            <div class="form-group">
+                    
+                                <select class="custom-select">
+                                    <option selected>1. Security Question</option>
+                                
+                            
+                                        <option value="1">What is your Car's name?</option>
+                                        <option value="2">Do you have a Bunny?</option>
+                                        <option value="3">Do you like Coconut?</option>
+                                      </select>
+                                    
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control input-lg" placeholder="Sequrity Answer" name="answer" value="" type="text">
+                            </div> 
+                            <div class="form-group">
+                                <select class="custom-select">
+                                    <option selected>1. Security Question</option>
+                                
+                            
+                                        <option value="1">What is your Moms name?</option>
+                                        <option value="2">Do you have an Elephant?</option>
+                                        <option value="3">Can you talk to aliens?</option>
+                                      </select>
+                                    
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control input-lg" placeholder="Sequrity Answer" name="answer" value="" type="text">
+                            </div> 
+                            <div class="checkbox">
+                                <label class="small">
+                                    <input name="terms" type="checkbox">I have read and agree to the <a href="#">terms of service</a>
+                                </label>
+                            </div>
+                            <input onclick="location.href='contact.html'"class="btn btn-lg btn-primary btn-block" value="Continue" type="submit">
 
-    <!-- Social login -->
-            <div class="row justify-content-center">
-                <div class="col">
-                    <div class="row justify-content-center">
-                        <!-- Twitter Connect -->
-                        <div class="col-7 col-sm-4 px-1 pb-1"> <a href="#" class="btn btn-block btn-social btn-twitter"> <span class="fa fa-twitter"></span> Twitter </a> </div> <!-- Facebook Connect -->
-                        <div class="col-7 col-sm-4 px-1 pb-1"> <a href="#" class="btn btn-block btn-social btn-facebook"> <span class="fa fa-facebook"></span> Facebook </a> </div> <!-- Google Connect -->
-                        <div class="col-7 col-sm-4 px-1 pb-1"> <a href="#" class="btn btn-block btn-social btn-google"> <span class="fa fa-google-plus"></span> Google </a> </div>
-                    </div>
-                </div>
-            </div>
-        </div> <!-- Horizontal Line -->
-      </div>
-    </form>
-                    
-                  
-                  
-                  
-                  
-                   
-                   
-                      <!-- Default form login -->
+                            </div>
+                            </div>
+                            </div>
+                            <p>Step 2 of 3</p>
+                            </div>
+               
 
-            
-            
-                <form class="signUp">
-                    <h2>Sign Up</h2>
-                    <p>Please fill in this form to create an account!</p>
-                    
-                    <hr>
-                    
-                    
-                    <div class="form-group">
-                      
-                        <div class="row">
-                            <div class="col"><input type="text" class="form-control" name="first_name" placeholder="First Name" required="required"></div>
-                            <div class="col"><input type="text" class="form-control" name="last_name" placeholder="Last Name" required="required"></div>
-                        </div>        	
-                    </div>
-                    <div class="form-group">
-                        <input type="email" class="form-control" name="email" placeholder="Email" required="required">
-                    </div>
-                    <div class="form-group">
-                        <input type="password" class="form-control" name="password" placeholder="Password" required="required">
-                    </div>
-                    <div class="form-group">
-                        <input type="password" class="form-control" name="confirm_password" placeholder="Confirm Password" required="required">
-                    </div>        
-                    <div class="form-group">
-                        <label class="form-check-label"><input type="checkbox" required="required"> I accept the <a href="#">Terms of Use</a> &amp; <a href="#">Privacy Policy</a></label>
-                    </div>
-                    <div class="form-group text-right">
-                        <button onclick="location.href='securityquestions.html'" type="submit" class="btn btn-primary btn-lg">Sign Up</button>
-                    </div>
-                  </div>
-                    
-                </form>
-                
-                
-    
-              </div>
-                
-                <p id="step">Step 1 of 3</p>
 
         </section>
 
@@ -332,22 +307,22 @@
     </div>
   </footer> <!-- End Footer -->
   
-  <a href="#main" class="back-to-top"><i class="icofont-simple-up"></i></a>
+    <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
   
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/jquery/jquery.min.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/jquery-sticky/jquery.sticky.js"></script>
-  <script src="assets/vendor/venobox/venobox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/jquery/jquery.min.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/jquery-sticky/jquery.sticky.js"></script>
+    <script src="assets/vendor/venobox/venobox.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
   
-  <!-- Main JS File -->
-  <script src="assets/js/main.js"></script>
+    <!-- Main JS File -->
+    <script src="assets/js/main.js"></script>
   
-</body>
+  </body>
   
-</html>
+  </html>
