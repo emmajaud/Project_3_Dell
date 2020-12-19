@@ -1,0 +1,31 @@
+.compare-title{
+  display:flex;
+  justify-content:center;
+  padding:20px;
+  margin-top:16px;
+}
+
+.add-cart{
+  background-color:#256EFF;
+  color:white;
+  font-family:roboto, sans-serif;
+  border-color:#256EFF;
+  border-radius: 8px;
+  justify-content: center;
+  display:flex;
+  padding:10px;
+  width:50%;
+
+}
+
+.add-cart:hover{
+  background-color:#004EE8;
+  cursor:pointer;
+}
+
+.previous{
+  background-color: #f1f1f1;
+  color: black;
+  margin: 32px;
+  padding: 20px;
+}
