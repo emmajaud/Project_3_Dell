@@ -466,8 +466,6 @@ section {
   color: #aeaeae;
 }
 
-
-
 /*--------------------------------------------------------------
 # Cards
 --------------------------------------------------------------*/
@@ -496,7 +494,7 @@ section {
   margin-top: 32px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.card:hover{
+.hover_card:hover{
   transform: scale(1.05);
   transition-duration: .4s;
   box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
