@@ -1,0 +1,24 @@
+.list-group{
+  background-color: lightgrey;
+}
+
+h1{
+  margin: 32px 0 0 8px;
+  color:black;
+}
+h2{
+  color:black;
+}
+h3{
+  color:black;
+}
+h4{
+    color:black;
+}
+h5{
+  color:black;
+  text-transform: uppercase;
+}
+p{
+  color:black;
+}
