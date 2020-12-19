@@ -1,0 +1,65 @@
+.add-cart{
+  background-color:#256EFF;
+  color:white;
+  font-family:roboto, sans-serif;
+  border-color:#256EFF;
+  border-radius: 8px;
+  justify-content: center;
+  display:flex;
+  padding:10px;
+  width:100%;
+  margin-top: 48px;
+  margin-bottom: 16px;
+
+}
+
+.add-cart:focus{
+  background-color:#004EE8;
+  cursor:pointer;
+}
+
+.add-cart:hover{
+  background-color:#004EE8;
+  cursor:pointer;
+}
+
+.add-cart:active{
+  background-color:#004EE8;
+  cursor:pointer;
+}
+
+.view-details{
+  background-color:#ffffff;
+  color:#256EFF;
+  font-family:roboto, sans-serif;
+  border-color:#256EFF;
+  border:1px;
+  border-style:solid;
+  border-radius: 8px;
+  justify-content: center;
+  display:flex;
+  padding:10px;
+  width:100%;
+  margin-top:12px;
+}
+
+.view-details:hover{
+  background-color:#f8f9fa;
+  cursor:pointer;
+}
+
+.byo1-title{
+  display:flex;
+  justify-content: center;
+  padding:10px;
+  margin-top:50px;
+}
+
+.previous{
+  margin:100px !important;
+  padding:100px !important;
+  font-family: Roboto, sans-serif;
+  font-size:15px;
+  font-weight:normal;
+  color:black;
+}
