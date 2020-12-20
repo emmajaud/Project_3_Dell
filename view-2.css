@@ -131,6 +131,34 @@
     width: 1rem;
     outline: none;
   }
+
+
+  .add-cart{
+    background-color:#256EFF;
+    color:white;
+    font-family:roboto, sans-serif;
+    border-color:#256EFF;
+    border-radius: 8px;
+    justify-content: center;
+    display:flex;
+    padding:10px;
+    width:50%;
+    margin-top: 12px;
+  
+  }
+  
+  .add-cart:hover{
+    background-color:#004EE8;
+    cursor:pointer;
+  }
+  
+  .previous{
+    background-color: #f1f1f1;
+    color: black;
+    margin: 32px;
+    padding: 20px;
+  }
+  
   
   /*
   *
@@ -982,17 +1010,19 @@
     border-radius: 50%;
     margin: 1rem;
     margin-right: 0rem;
-    padding: 2px;
+    padding: 1px;
+    border: solid rgba(9, 6, 6, 0.721);
   }
 
   .circle{
+    background-color: black;
     height: 100%;
     width: 100%;
     border-radius: 50%;
   }
 
   .var-circle .selected{
-    border: 2px solid grey;
+    border: 2px solid lightgrey;
   }
 
   .var-circle.selected .circle{
@@ -1000,8 +1030,11 @@
   }
 
   .var-circle .red{
-    background: black;
+    background-color: black;
   }
+
+  
+
 
   
 
