@@ -186,9 +186,10 @@
         <div class="section-title pb-lg-5" data-aos="fade-up">
           <h2>Checkout</h2>
 
+          <form class="text-left" name="checkout">
             <div class="form-group mt-5">
                 <h5 for="exampleInputEmail1">Billing Information</h5>
-                <input type="text" class="form-control mb-3" placeholder="Full Name" aria-label="Full Name" id="inputFullNameBilling">
+                <input type="text" class="form-control mb-3" placeholder="Full Name" aria-label="Full Name" id="inputFullName">
                 <input type="text" class="form-control mb-3" placeholder="Address 1" aria-label="Address 1" id="inputAddress1Billing">
                 <input type="text" class="form-control mb-3" placeholder="Address 2" aria-label="Address 2" id="inputAddress2Billing">
 
@@ -280,7 +281,7 @@
                         <div class="col-6 p-0">
                             <h6>Credit Card Detail</h6>
                             <input type="text" class="form-control mb-3 col-10" placeholder="Full Name" aria-label="Full Name" id="fullNameCardInfo" required>
-                            <input type="number" class="form-control mb-3 col-10" placeholder="Card Number" aria-label="Card Number" id="cardNumberCardInfo" required>
+                            <input type="number" class="form-control mb-3 col-10" placeholder="Card Number" name="cardNumber" aria-label="Card Number" id="cardNumberCardInfo" required>
                             
                             <div class="d-flex justify-content-between p-0 col-10">
                                 <input type="date" class="form-control col-5" placeholder="Exp Date" aria-label="Exp Date" id="expDateCardInfo" required>
@@ -360,32 +361,7 @@
 
           </form>
 
-          <script>
-            // Example starter JavaScript for disabling form submissions if there are invalid fields
-            (function() {
-              'use strict';
-              window.addEventListener('load', function() {
-                // Fetch all the forms we want to apply custom Bootstrap validation styles to
-                var forms = document.getElementsByClassName('needs-validation');
-                // Loop over them and prevent submission
-                var validation = Array.prototype.filter.call(forms, function(form) {
-                  form.addEventListener('submit', function(event) {                    
-                    if (form.checkValidity() === false) {
-                      event.preventDefault();
-                      event.stopPropagation();
-                    }
-                    $( "input:valid" ).each(function( index ) {
-                      console.log($(this).attr('required'));
-                      if($(this).attr('required') != 'required') {
-                        $(this).removeClass('is-valid');
-                      }
-                    });
-                    form.classList.add('was-validated');                    
-                  }, false);
-                });
-              }, false);
-            })();
-            </script>
+
 
           
 
@@ -437,6 +413,7 @@
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.min.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
@@ -448,6 +425,34 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+
+  <script>  
+    $(function() {
+      // Initialize form validation on the registration form.
+      // It has the name attribute "registration"
+      $("form[name='checkout']").validate({
+        // Specify validation rules
+        rules: {
+        // The key name on the left side is the name attribute
+        // of an input field. Validation rules are defined
+        // on the right side
+          cardNumber: {
+            required: true,
+            creditcard: true
+          }
+        },
+        // Specify validation error messages
+        messages: {
+          cardNumber: "The credit card number you entered apprears to be invalid!"
+        },
+        // Make sure the form is submitted to the destination defined
+        // in the "action" attribute of the form when valid
+        submitHandler: function(form) {
+          form.submit();
+        }
+      });
+    });
+    </script>
 
 </body>
 
