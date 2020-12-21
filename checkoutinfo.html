@@ -46,7 +46,7 @@
       <div class="logo d-block d-lg-none">
         <a href="#"><img src="assets/dell_images/Dell-Logos/dell-gaming-logo.png" width="200" alt="dell gaming logo" class="img-fluid"></a>
         <a class="my-mobile-nav" href="#">Sign In</a>
-        <a class="my-mobile-nav" href="#"><img src="assets/dell_images/icons/cart.svg" alt="checkout icon" class="img-fluid"></a>
+        <a class="my-mobile-nav" href="#"><img src="assets/dell_images/icons/cart-checkout.svg" alt="checkout icon" class="img-fluid"></a>
       </div>
 
       <!-- Top Portion of Nav -->
@@ -60,7 +60,7 @@
           <li class="top-nav-menu"><a href="#">Sign In</a></li>
 
           <!-- Checkout Nav  -->
-          <li class="nav-logo top-nav-menu checkout"><a href="#"><img src="assets/dell_images/icons/cart.svg" alt="checkout icon" class="img-fluid"></a></li>
+          <li class="nav-logo top-nav-menu checkout"><a href="#"><img src="assets/dell_images/icons/cart-checkout.svg" alt="checkout icon" class="img-fluid cart-icon"></a></li>
 
         </ul>
       </nav>
@@ -186,7 +186,6 @@
         <div class="section-title pb-lg-5" data-aos="fade-up">
           <h2>Checkout</h2>
 
-          <form class="text-left">
             <div class="form-group mt-5">
                 <h5 for="exampleInputEmail1">Billing Information</h5>
                 <input type="text" class="form-control mb-3" placeholder="Full Name" aria-label="Full Name" id="inputFullNameBilling">
@@ -280,12 +279,12 @@
                         
                         <div class="col-6 p-0">
                             <h6>Credit Card Detail</h6>
-                            <input type="text" class="form-control mb-3 col-10" placeholder="Full Name" aria-label="Full Name" id="fullNameCardInfo">
-                            <input type="number" class="form-control mb-3 col-10" placeholder="Card Number" aria-label="Card Number" id="cardNumberCardInfo" >
+                            <input type="text" class="form-control mb-3 col-10" placeholder="Full Name" aria-label="Full Name" id="fullNameCardInfo" required>
+                            <input type="number" class="form-control mb-3 col-10" placeholder="Card Number" aria-label="Card Number" id="cardNumberCardInfo" required>
                             
                             <div class="d-flex justify-content-between p-0 col-10">
-                                <input type="date" class="form-control col-5" placeholder="Exp Date" aria-label="Exp Date" id="expDateCardInfo" >
-                                <input type="number" class="form-control col-5" placeholder="CVV" aria-label="CVV" id="cvvCardInfo" >   
+                                <input type="date" class="form-control col-5" placeholder="Exp Date" aria-label="Exp Date" id="expDateCardInfo" required>
+                                <input type="number" class="form-control col-5" placeholder="CVV" aria-label="CVV" id="cvvCardInfo" required>   
                             </div>
                         </div>
 
@@ -352,7 +351,7 @@
                     </div>
 
                     <div class="d-flex flex-row-reverse bd-highlight mt-5">
-                        <button type="button" class="pt-2 pb-2 col-2 btn btn-primary">Continue</button>
+                        <button type="submit" class="pt-2 pb-2 col-2 btn btn-primary">Continue</button>
                         <button type="button" class="pt-2 pb-2 col-2 btn btn-outline-primary mr-3">Previous</button>
                     </div>
                 </div>
@@ -360,6 +359,33 @@
             </div>
 
           </form>
+
+          <script>
+            // Example starter JavaScript for disabling form submissions if there are invalid fields
+            (function() {
+              'use strict';
+              window.addEventListener('load', function() {
+                // Fetch all the forms we want to apply custom Bootstrap validation styles to
+                var forms = document.getElementsByClassName('needs-validation');
+                // Loop over them and prevent submission
+                var validation = Array.prototype.filter.call(forms, function(form) {
+                  form.addEventListener('submit', function(event) {                    
+                    if (form.checkValidity() === false) {
+                      event.preventDefault();
+                      event.stopPropagation();
+                    }
+                    $( "input:valid" ).each(function( index ) {
+                      console.log($(this).attr('required'));
+                      if($(this).attr('required') != 'required') {
+                        $(this).removeClass('is-valid');
+                      }
+                    });
+                    form.classList.add('was-validated');                    
+                  }, false);
+                });
+              }, false);
+            })();
+            </script>
 
           
 
