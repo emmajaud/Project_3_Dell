@@ -1011,19 +1011,16 @@
     margin: 1rem;
     margin-right: 0rem;
     padding: 1px;
-    border: solid rgba(9, 6, 6, 0.721);
+    border: solid black;
   }
 
   .circle{
     background-color: black;
     height: 100%;
     width: 100%;
-    border-radius: 50%;
+    border-radius: 100%;
   }
 
-  .var-circle .selected{
-    border: 2px solid lightgrey;
-  }
 
   .var-circle.selected .circle{
     background: grey;
