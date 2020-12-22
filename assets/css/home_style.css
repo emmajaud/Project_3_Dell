@@ -3,7 +3,7 @@
 --------------------------------------------------------------*/
 body {
   font-family: 'Roboto', sans-serif;
-  color: #555555;
+  color: #000000;
 }
 
 a {
@@ -11,7 +11,7 @@ a {
 }
 
 a:hover {
-  color: #0076CE;
+  color: #256EFF;
   text-decoration: none;
 }
 
@@ -20,7 +20,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 path:hover {
-  fill: #0076CE !important;
+  fill: #256EFF !important;
 }
 
 .center {
@@ -37,6 +37,8 @@ path:hover {
   color: white;
   opacity: 0.95;
 }
+
+
 
 /*--------------------------------------------------------------
 # Back to top button
@@ -57,13 +59,13 @@ path:hover {
   width: 40px;
   height: 40px;
   border-radius: 4px;
-  background: #0076CE;
+  background: #256EFF;
   color: #fff;
   transition: all 0.4s;
 }
 
 .back-to-top i:hover {
-  background: #0076CE;
+  background: #004EE8;
   color: #fff;
 }
 
@@ -166,7 +168,7 @@ path:hover {
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-  color: #0076CE;
+  color: #256EFF;
   text-decoration: none;
 }
 
@@ -203,7 +205,7 @@ path:hover {
 }
 
 .nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul .active > a, .nav-menu .drop-down ul li:hover > a {
-  color: #0076CE;
+  color: #256EFF;
 }
 
 .nav-menu .drop-down > a:after {
@@ -264,7 +266,7 @@ path:hover {
 }
 
 .mobile-nav-toggle i {
-  color: #0076CE;
+  color: #256EFF;
 }
 
 .mobile-nav {
@@ -299,7 +301,7 @@ path:hover {
 }
 
 .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
-  color: #0076CE;
+  color: #256EFF;
   text-decoration: none;
 }
 
@@ -400,23 +402,24 @@ path:hover {
 }
 
 #hero .btn-get-started {
-  font-family: 'Roboto', sans-serif;
-  text-transform: uppercase;
-  font-weight: 800;
-  font-size: 16px;
-  letter-spacing: 1px;
+  background-color:#256EFF;
+  color:white;
+  font-family:roboto, sans-serif;
+  border-color:#256EFF;
+  border-radius: 8px;
+  justify-content: center;
+  display:flex;
+  padding:10px;
+  width:50%;
+  margin-top: 12px;
   display: inline-block;
   padding: 14px 30px;
-  border-radius: 3px;
   transition: 0.5s;
-  margin: 10px;
-  color: #256eff;
-  background: #fff;
 }
 
 #hero .btn-get-started:hover {
-  background: #256eff;
-  color: #fff;
+  background-color:#004EE8;
+  cursor:pointer;
 }
 
 @media (min-width: 1024px) {
@@ -508,41 +511,43 @@ section {
 }
 /*BYO Card button*/
 #byo-card-id .btn-get-started {
-  font-family: 'Roboto', sans-serif;
-  text-transform: uppercase;
-  font-weight: 600;
-  font-size: 14px;
-  letter-spacing: 1px;
-  display: inline-block;
-  padding: 14px 30px;
-  border-radius: 3px;
-  transition: 0.5s;
-  color: #256eff;
-  background: #fff;
+  background-color:#ffffff;
+  color:#256EFF;
+  font-family:roboto, sans-serif;
+  border-color:#256EFF;
+  border:1px;
+  border-style:solid;
+  border-radius: 8px;
+  justify-content: center;
+  display:flex;
+  padding:10px;
+  width:50%;
+  margin-top:5px;
 }
 #byo-card-id .btn-get-started:hover {
-  background: #256eff;
-  color: #fff;
+  background-color:#f8f9fa;
+  cursor:pointer;
 }
 /* Featured Card Button*/
 #featured-card-id .btn-get-started {
-  font-family: 'Roboto', sans-serif;
-  text-transform: uppercase;
-  font-weight: 600;
-  font-size: 14px;
-  letter-spacing: 1px;
-  display: inline-block;
-  padding: 14px 30px;
-  border-radius: 3px;
-  transition: 0.5s;
-  color: #fff;
-  background: #256eff;
+  background-color:#256EFF;
+  color:white;
+  font-family:roboto, sans-serif;
+  border-color:#256EFF;
+  border-radius: 8px;
+  justify-content: center;
+  display:flex;
+  padding:10px;
+  width:50%;
+  margin-top: 12px;
+
 }
 
 #featured-card-id .btn-get-started:hover {
-  background: #020887;
-  color: #fff;
+  background-color:#004EE8;
+  cursor:pointer;
 }
+
 
 
 
