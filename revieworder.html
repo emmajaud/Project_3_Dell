@@ -22,7 +22,7 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/home_style.css" rel="stylesheet">
-  <link href="assets/css/mycart.css" rel="stylesheet">
+  <link href="assets/css/revieworder.css" rel="stylesheet">
 
 </head>
 
@@ -181,6 +181,7 @@
 
         <div class="section-title pb-lg-5" data-aos="fade-up">
           <h2>Review & Place Order</h2>
+          <hr>
         </div>
         <h6 class="text-left">5 items</h6>
 
@@ -329,36 +330,41 @@
             </div>
           </div>
 
-        <div class="row mt-5">   
-            <div class="col-4 p-0">
-                <h5>Billing Address</h5>
-                <p>1234 Street-Drive Rd</p>
-                <p>Austin, Texas, 78704</p>
-                <button type="button" class="col-3 btn btn-outline-primary">Edit</button>
-            </div>
+        <h3>CHECKOUT INFORMATION</h3>
+        <hr>
+        <div class="row mt-5 ">   
 
-            <div class="col-4">
-                <h5>Shipping Address</h5>
-                <p>1234 Street-Drive Rd</p>
-                <p>Austin, Texas, 78704</p>
-                <button type="button" class="col-3 btn btn-outline-primary">Edit</button>
-            </div>
+          <div class="col-3">
+            <h5>Billing Address</h5>
+            <p>1234 Street-Drive Rd</p>
+            <p>Austin, Texas, 78704</p>
+            <button type="button" class="col-3 btn btn-outline-primary">Edit</button>
+          </div>
+
+          <div class="col-3">
+            <h5>Shipping Address</h5>
+            <p>1234 Street-Drive Rd</p>
+            <p>Austin, Texas, 78704</p>
+            <button type="button" class="col-3 btn btn-outline-primary">Edit</button>
+          </div>
+
+          <div class="col-3">
+            <h5>Payment Information</h5>
+            <p>XXXX-XXXX-XXXX-3456</p>
+            <p>Exp: 07/21</p>
+            <p>CVV: XXX</p>
+            <button type="button" class="col-3 btn btn-outline-primary">Edit</button>
+          </div>
+
+          <div class="col-3">
+            <h5>Shipping Method</h5>
+            <p>Standard: 3-10 business days (FREE)</p>
+            <button type="button" class="col-3 btn btn-outline-primary">Edit</button>
+          </div>
         </div>
 
         <div class="row mt-5">   
-            <div class="col-4 p-0">
-                <h5>Payment Information</h5>
-                <p>XXXX-XXXX-XXXX-3456</p>
-                <p>Exp: 07/21</p>
-                <p>CVV: XXX</p>
-                <button type="button" class="col-3 btn btn-outline-primary">Edit</button>
-            </div>
-
-            <div class="col-4">
-                <h5>Shipping Method</h5>
-                <p>Standard: 3-10 business days (FREE)</p>
-                <button type="button" class="col-3 btn btn-outline-primary">Edit</button>
-            </div>
+            
         </div>
           
 
@@ -366,28 +372,28 @@
             <h3 class="mb-lg-3">Total $3319.95</h3>
         </div>
 
-        <div class="d-flex flex-row-reverse bd-highlight">
-            <button type="button" class="pb-2 col-2 btn btn-primary" data-toggle="modal" data-target="#thankYouModal">Place Order</button>
-            <button type="button" class="pb-2 col-2 btn btn-outline-primary mr-3">Previous</button>
-        </div>
+        <div class="d-flex flex-row-reverse bd-highlight mt-5">
+          <button type="button" class="pt-2 pb-2 col-2 btn btn-primary"><a href="revieworder.html" style="color: white;">Continue</a></button>
+          <button type="button" class="pt-2 pb-2 col-2 btn btn-outline-primary mr-auto">Previous</button>
+        </div>  
 
         <!-- Modal -->
-<div class="modal fade" id="thankYouModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content pb-3">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
+        <div class="modal fade" id="thankYouModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content pb-3">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body text-center">
+                        <h2>Thank You!</h2>
+                        <h4 class="mt-2">Your order was received!</h4>
+                        <small>Check your email for a confirmation number and to track shipping.</small>
+                    </div>
+                </div>
             </div>
-            <div class="modal-body text-center">
-                <h2>Thank You!</h2>
-                <h4 class="mt-2">Your order was received!</h4>
-                <small>Check your email for a confirmation number and to track shipping.</small>
-            </div>
-        </div>
-    </div>
-  </div>
+          </div>
 
       </div>
     </section><!-- End My Cart Section -->

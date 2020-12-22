@@ -1,54 +1,18 @@
 #main{
-  padding: 0 0 48px 0;
+  margin-top: 50px;
+  margin-bottom: 48px;
 }
 
 .list-group{
   background-color: lightgrey;
 }
 
-h1{
-  margin: 32px 0 0 8px;
-}
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Roboto', sans-serif;
   color:black;
 }
 
-h1{
-  font-size:50px;
-  font-weight:bold;
-}
-h2{
- 
-  font-size:38px;
-  font-weight:medium;
-
-}
-h3{
-  
-  font-size:28px;
-  font-weight:normal;
-
-}
-h4{
-  
-    font-size:21px;
-    font-weight:normal;
-
-  }
-h5{
-  
-  font-size:14px;
-  font-weight:medium;
-  text-transform: uppercase;
-}
-p{
-
-  font-size:11px;
-  font-weight:normal;
-
-}
 
 .add-cart{
   background-color:#256EFF;
@@ -62,10 +26,11 @@ p{
   width:50%;
   margin-top: 12px;
 
+
 }
 
 .add-cart:hover{
-  background-color:#004EE8;
+  background-color:#020887;
   cursor:pointer;
 }
 
@@ -81,11 +46,13 @@ p{
   display:flex;
   padding:10px;
   width:50%;
-  margin-top:5px;
+  margin-top:12px;
 }
 
 .view-details:hover{
-  background-color:#f8f9fa;
+  background-color:#020887;
+  border-color:#020887;
+  color: white;
   cursor:pointer;
 }
 

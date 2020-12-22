@@ -1,6 +1,6 @@
 #main{
-  margin-top: 100px;
-  margin-bottom: 100px;
+  margin-top: 50px;
+  margin-bottom: 48px;
 }
 p{
   text-align: center;
@@ -8,11 +8,12 @@ p{
 
 #step{
   text-align: center;
-  padding-left: 40%;
+  /*padding-left: 40%;*/
 }
 
 h2{
   text-align: center;
+  font-weight: bold;
 }
 
 .h4.mb-4{
@@ -21,11 +22,11 @@ h2{
 }
 
 .signUp{
-  margin-left: 250px;
+  /*margin-left: 250px;*/
 }
 
 .logIn{
-  padding-left: 50px;
+  /*padding-left: 50px;*/
 }
 
 .btn-primary{
@@ -37,33 +38,34 @@ h2{
   justify-content: center;
   display:flex;
   padding:10px;
-  width:50%;
+  width:100%;
   margin-top: 12px;
 }
 
 .btn-primary:hover{
-  background-color:#004EE8;
+  background-color:#020887;
   cursor:pointer;
 }
 
-h1{
-  margin: 32px 0 0 8px;
-}
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Roboto', sans-serif;
   color:black;
 }
 
-h2{
- 
-  font-size:38px;
-  font-weight:medium;
 
+@media screen and (min-height: 1108px) {
+  #footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
 }
-p{
-
-  font-size:11px;
-  font-weight:normal;
-
+@media screen and (max-width: 993px) {
+  #vr{
+    display: none;
+  }
+  #hr {
+    display: "";
+  }
 }

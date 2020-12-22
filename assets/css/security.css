@@ -5,16 +5,7 @@
 
 #main{
   margin-top: 50px;
-  margin-bottom: 150px;
-}
-
-h4{
-  font-family: Roboto, sans-serif;
-  font-size:21px;
-  font-weight:normal;
-  color:black;
-  text-align: center;
-  padding: 20px;
+  margin-bottom: 48px;
 }
 
 a {
@@ -44,6 +35,10 @@ a:hover {
 
 .previous{
   margin-left: 20px;
+  background-color: #f1f1f1;
+  color: black;
+  position: absolute;
+  z-index: 10px;
 }
 
 p{
@@ -65,7 +60,7 @@ p{
 }
 
 .btn-primary:hover{
-  background-color:#004EE8;
+  background-color:#020887;
   cursor:pointer;
 }
 
@@ -78,37 +73,18 @@ h1, h2, h3, h4, h5, h6 {
   color:black;
 }
 
-h1{
-  font-size:50px;
-  font-weight:bold;
-}
-h2{
- 
-  font-size:38px;
+h2{ 
+  font-size:32px;
   font-weight:medium;
-
-}
-h3{
-  
-  font-size:28px;
-  font-weight:normal;
-
-}
-h4{
-  
-    font-size:21px;
-    font-weight:normal;
-
-  }
-h5{
-  
-  font-size:14px;
-  font-weight:medium;
+  text-align: center;
   text-transform: uppercase;
+  font-weight: bold;
 }
-p{
 
-  font-size:11px;
-  font-weight:normal;
-
+@media screen and (min-height: 1108px) {
+  #footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
 }

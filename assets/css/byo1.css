@@ -1,37 +1,29 @@
-
-.compare-title{
-  display:flex;
-  justify-content:center;
-  padding:20px;
-  margin-top:50px;
-}
-
 .add-cart{
   background-color:#256EFF;
   color:white;
-  font-family:roboto, sans-serif;
+  font-family:'Roboto', sans-serif;
   border-color:#256EFF;
   border-radius: 8px;
   justify-content: center;
   display:flex;
   padding:10px;
-  width:100%;
+  width:15%;
   margin-bottom:50px;
-
+  margin-left: auto;
 }
 
 .add-cart:focus{
-  background-color:#004EE8;
+  background-color:#020887;
   cursor:pointer;
 }
 
 .add-cart:hover{
-  background-color:#004EE8;
+  background-color:#020887;
   cursor:pointer;
 }
 
 .add-cart:active{
-  background-color:#004EE8;
+  background-color:#020887;
   cursor:pointer;
 }
 
@@ -54,27 +46,28 @@
 }
 
 .view-details{
+  font-family: 'Roboto', sans-serif;
   background-color:#ffffff;
   color:#256EFF;
-  font-family:roboto, sans-serif;
   border-color:#256EFF;
   border:1px;
   border-style:solid;
   border-radius: 8px;
-  justify-content: center;
-  display:flex;
-  padding:10px;
-  width:50%;
-  margin-top:5px;
+  display: inline-block;
+  padding: 10px 30px;
+  transition: 0.5s;
+
 }
 
 .view-details:hover{
-  background-color:#f8f9fa;
+  background-color:#020887;
+  border-color:#020887;
+  color: white;
   cursor:pointer;
 }
 
 .form-check-label{
-  font-family: Roboto, sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size:15px;
   font-weight:normal;
   color:black;

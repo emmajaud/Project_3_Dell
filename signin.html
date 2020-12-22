@@ -173,109 +173,190 @@
     </div>   
   </header><!-- End Header -->
 
-    <main id="main">
-      
-      <div class="container">
-          <div class="row">
-            <div class="col-sm-4">
-                <form class="logIn">
-                  
-                  <h2>Log In</h2>
-                  <br>
-                  <div class="form-group">
+  <main id="main">
 
-                    <div class="col">
-                      <input type="email" id="defaultLoginFormEmail" class="form-control mb-4" placeholder="E-mail">
+    <div class="container">
+      <h2>CHOOSE SIGN IN METHOD</h2>
+      <hr style="padding-bottom: 48px; margin-bottom: 0;">
+      <div class="row">
 
-             <!-- Password -->
-            <input type="password" id="defaultLoginFormPassword" class="form-control mb-4" placeholder="Password">
-               </div>
-               <div class="d-flex justify-content-around">
-               <div class="custom-control custom-checkbox">
-                <input type="checkbox" class="custom-control-input" id="defaultLoginFormRemember">
-                <label class="custom-control-label" for="defaultLoginFormRemember">Remember me</label>
-            </div>
-         
-          <div>
+        <div class="col-lg-1"></div>
 
-            <a href="">Forgot password?</a>
-          </div>
-        </div>
-        <div class="form-group text-center">
-        <button class="btn btn-primary btn-lg my-4 " type="submit">Log in</button>
-      </div>      
-
-    <!-- Social login -->
-            <div class="row justify-content-center">
-                <div class="col">
-                    <div class="row justify-content-center">
-                        <!-- Twitter Connect -->
-                        <div class="col-7 col-sm-4 px-1 pb-1"> <a href="#" class="btn btn-block btn-social btn-twitter"> <span class="fa fa-twitter"></span> Twitter </a> </div> <!-- Facebook Connect -->
-                        <div class="col-7 col-sm-4 px-1 pb-1"> <a href="#" class="btn btn-block btn-social btn-facebook"> <span class="fa fa-facebook"></span> Facebook </a> </div> <!-- Google Connect -->
-                        <div class="col-7 col-sm-4 px-1 pb-1"> <a href="#" class="btn btn-block btn-social btn-google"> <span class="fa fa-google-plus"></span> Google </a> </div>
-                    </div>
-                </div>
-            </div>
-        </div> <!-- Horizontal Line -->
-      </div>
-    </form>
-                    
-                  
-                  
-                  
-                  
-                   
-                   
-                      <!-- Default form login -->
-
-            
-            
-                <form class="signUp">
-                    <h2>Sign Up</h2>
-                    <p>Please fill in this form to create an account!</p>
-                    
-                    <hr>
-                    
-                    
-                    <div class="form-group">
-                      
-                        <div class="row">
-                            <div class="col"><input type="text" class="form-control" name="first_name" placeholder="First Name" required="required"></div>
-                            <div class="col"><input type="text" class="form-control" name="last_name" placeholder="Last Name" required="required"></div>
-                        </div>        	
-                    </div>
-                    <div class="form-group">
-                        <input type="email" class="form-control" name="email" placeholder="Email" required="required">
-                    </div>
-                    <div class="form-group">
-                        <input type="password" class="form-control" name="password" placeholder="Password" required="required">
-                    </div>
-                    <div class="form-group">
-                        <input type="password" class="form-control" name="confirm_password" placeholder="Confirm Password" required="required">
-                    </div>        
-                    <div class="form-group">
-                        <label class="form-check-label"><input type="checkbox" required="required"> I accept the <a href="#">Terms of Use</a> &amp; <a href="#">Privacy Policy</a></label>
-                    </div>
-                    <div class="form-group text-right">
-                        <button onclick="location.href='securityquestions.html'" type="submit" class="btn btn-primary btn-lg">Sign Up</button>
-                    </div>
-                  </div>
-                    
-                </form>
-                
-                
-    
+        <div class="col-lg-4" style="padding: 0;">
+          <form class="logIn">
+            <h2>Login</h2>
+            <hr>
+            <div class="form-group">
+              <!-- Email -->
+              <div class="form-group">
+                <input type="email" id="defaultLoginFormEmail" class="form-control" placeholder="Email">
               </div>
-                
-                <p id="step">Step 1 of 3</p>
+              <!-- Password -->
+              <div class="form-group">
+                <input type="password" id="defaultLoginFormPassword" class="form-control" placeholder="Password">
+              </div>
 
-        </section>
+              <div class="d-flex justify-content-between" style="padding: 0;">
+                <div class="custom-control custom-checkbox">
+                  <input type="checkbox" class="custom-control-input" id="defaultLoginFormRemember">
+                  <label class="custom-control-label" for="defaultLoginFormRemember">Remember me</label>
+                </div>
+          
+                <div>
+                  <a style="text-decoration: underline; " href="">Forgot password?</a>
+                </div>
+              </div>
+
+              <div class="form-group text-right">
+                <button onclick="location.href='securityquestions.html'" type="submit" class="btn btn-primary btn-lg">Login</button>
+              </div>
+
+              <!-- Social login -->
+              <div class="row justify-content-center">
+                <div class="col">
+                  <div class="row justify-content-center">
+                    <!-- Twitter Connect -->
+                    <div class="col-7 col-sm-4 px-1 pb-1"> <a href="#" class="btn btn-block btn-social btn-twitter"> <span class="fa fa-twitter"></span> Twitter </a> </div> 
+                    <!-- Facebook Connect -->
+                    <div class="col-7 col-sm-4 px-1 pb-1"> <a href="#" class="btn btn-block btn-social btn-facebook"> <span class="fa fa-facebook"></span> Facebook </a> </div> 
+                    <!-- Google Connect -->
+                    <div class="col-7 col-sm-4 px-1 pb-1"> <a href="#" class="btn btn-block btn-social btn-google"> <span class="fa fa-google-plus"></span> Google </a> </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </form> 
+        </div>
+
+        <div class="col-lg-2 .center">
+          <div id="vr" style="border-left:1px solid lightgray; height: 500px; width: 50%; margin-left: auto; margin-bottom: 48px;"></div>
+          <hr id="hr">
+        </div>
+
+        <div class="col-lg-4" style="padding: 0;">
+          <!-- SIGN UP -->     
+          <form class="signUp">
+            <h2>Sign Up</h2>
+            <p>Please fill in this form to create an account!</p>
+            <hr>
+                        
+            <div class="form-group">
+              <div class="row">
+                <div class="col"><input type="text" class="form-control" name="first_name" placeholder="First Name" required="required"></div>
+                <div class="col"><input type="text" class="form-control" name="last_name" placeholder="Last Name" required="required"></div>
+              </div>        	
+            </div>
+            <div class="form-group">
+              <input type="email" class="form-control" name="email" placeholder="Email" required="required">
+            </div>
+            <div class="form-group">
+              <input type="password" class="form-control" name="password" placeholder="Password" required="required">
+            </div>
+            <div class="form-group">
+              <input type="password" class="form-control" name="confirm_password" placeholder="Confirm Password" required="required">
+            </div>        
+            <div class="form-group">
+              <label class="form-check-label"><input type="checkbox" required="required"> I accept the <a style="text-decoration: underline; " href="#">Terms of Use</a> &amp; <a style="text-decoration: underline; " href="#">Privacy Policy</a></label>
+            </div>
+            <div class="form-group text-right">
+              <button onclick="location.href='securityquestions.html'" type="submit" class="btn btn-primary btn-lg">Sign Up</button>
+            </div>
+          </form>
+          <p id="step">Step 1 of 3</p>
+        </div>
+
+        <div class="col-1"></div>
+
+      </div>
 
 
+    </div>
+      
+    <!-- <div class="container">
 
+       LOGIN 
+      <div class="row">
+        <div class="col-5">
+          <form class="logIn">
+            <h2>Log In</h2>
+            <hr>
+            <div class="form-group">
+              <div class="col" style="padding: 0;">
+                <input type="email" id="defaultLoginFormEmail" class="form-control mb-4" placeholder="E-mail">
 
+                 Password
+                <input type="password" id="defaultLoginFormPassword" class="form-control mb-4" placeholder="Password">
+              </div>
+              <div class="d-flex justify-content-around">
+                <div class="custom-control custom-checkbox">
+                  <input type="checkbox" class="custom-control-input" id="defaultLoginFormRemember">
+                  <label class="custom-control-label" for="defaultLoginFormRemember">Remember me</label>
+                </div>
+          
+                <div>
+                  <a href="">Forgot password?</a>
+                </div>
+              </div>
+              <div class="form-group text-center">
+                <button class="btn btn-primary btn-lg my-4 " type="submit">Log in</button>
+              </div>
+          </form>      
 
-    </main><!-- End #main -->
+           Social login 
+          <div class="row justify-content-center">
+            <div class="col">
+              <div class="row justify-content-center">
+                 Twitter Connect 
+                <div class="col-7 col-sm-4 px-1 pb-1"> <a href="#" class="btn btn-block btn-social btn-twitter"> <span class="fa fa-twitter"></span> Twitter </a> </div> 
+                Facebook Connect
+                <div class="col-7 col-sm-4 px-1 pb-1"> <a href="#" class="btn btn-block btn-social btn-facebook"> <span class="fa fa-facebook"></span> Facebook </a> </div> 
+                 Google Connect 
+                <div class="col-7 col-sm-4 px-1 pb-1"> <a href="#" class="btn btn-block btn-social btn-google"> <span class="fa fa-google-plus"></span> Google </a> </div>
+              </div>
+            </div>
+          </div>
+        </div>  Horizontal Line 
+         END OF LOGIN 
+
+      </div>
+      
+       SIGN UP      
+      <form class="signUp">
+        <h2>Sign Up</h2>
+        <p>Please fill in this form to create an account!</p>
+        <hr>
+                    
+        <div class="form-group">
+          <div class="row">
+            <div class="col"><input type="text" class="form-control" name="first_name" placeholder="First Name" required="required"></div>
+            <div class="col"><input type="text" class="form-control" name="last_name" placeholder="Last Name" required="required"></div>
+          </div>        	
+        </div>
+        <div class="form-group">
+          <input type="email" class="form-control" name="email" placeholder="Email" required="required">
+        </div>
+        <div class="form-group">
+          <input type="password" class="form-control" name="password" placeholder="Password" required="required">
+        </div>
+        <div class="form-group">
+          <input type="password" class="form-control" name="confirm_password" placeholder="Confirm Password" required="required">
+        </div>        
+        <div class="form-group">
+          <label class="form-check-label"><input type="checkbox" required="required"> I accept the <a href="#">Terms of Use</a> &amp; <a href="#">Privacy Policy</a></label>
+        </div>
+        <div class="form-group text-right">
+          <button onclick="location.href='securityquestions.html'" type="submit" class="btn btn-primary btn-lg">Sign Up</button>
+        </div>
+      </form>
+      
+            
+      
+    </div>
+                    
+    <p id="step">Step 1 of 3</p> -->
+
+  </main><!-- End #main -->
 
   <!-- ======= FOOTER ======= -->
   <!-- Footer -->

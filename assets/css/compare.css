@@ -1,8 +1,13 @@
+#main{
+  margin-top: 50px;
+  margin-bottom: 48px;
+}
+
 .compare-title{
-  display:flex;
-  justify-content:center;
-  padding:20px;
-  margin-top:16px;
+  font-size:32px;
+  font-weight:bold;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .add-cart{
@@ -20,13 +25,20 @@
 }
 
 .add-cart:hover{
-  background-color:#004EE8;
+  background-color:#020887;
   cursor:pointer;
 }
 
 .previous{
   background-color: #f1f1f1;
   color: black;
-  margin: 32px;
-  padding: 20px;
+  margin-left: 20px;
+  padding: 8px 16px;
+  position: absolute;
+  z-index: 10px;
+}
+
+h2{ 
+  font-size:32px;
+  font-weight:medium;
 }

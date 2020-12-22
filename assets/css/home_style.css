@@ -402,23 +402,18 @@ path:hover {
 }
 
 #hero .btn-get-started {
-  background-color:#256EFF;
-  color:white;
-  font-family:roboto, sans-serif;
-  border-color:#256EFF;
-  border-radius: 8px;
-  justify-content: center;
-  display:flex;
-  padding:10px;
-  width:50%;
-  margin-top: 12px;
+  font-family: 'Roboto', sans-serif;
   display: inline-block;
   padding: 14px 30px;
+  border-radius: 8px;
   transition: 0.5s;
+  margin: 12px 10px;
+  background-color:#256EFF;
+  color:white;
 }
 
 #hero .btn-get-started:hover {
-  background-color:#004EE8;
+  background-color:#020887;
   cursor:pointer;
 }
 
@@ -513,7 +508,7 @@ section {
 #byo-card-id .btn-get-started {
   background-color:#ffffff;
   color:#256EFF;
-  font-family:roboto, sans-serif;
+  font-family: 'Roboto', sans-serif;
   border-color:#256EFF;
   border:1px;
   border-style:solid;
@@ -525,26 +520,25 @@ section {
   margin-top:5px;
 }
 #byo-card-id .btn-get-started:hover {
-  background-color:#f8f9fa;
+  background-color:#020887;
+  border-color:#020887;
+  color: white;
   cursor:pointer;
 }
 /* Featured Card Button*/
 #featured-card-id .btn-get-started {
+  font-family: 'Roboto', sans-serif;
   background-color:#256EFF;
   color:white;
-  font-family:roboto, sans-serif;
   border-color:#256EFF;
   border-radius: 8px;
-  justify-content: center;
-  display:flex;
-  padding:10px;
-  width:50%;
-  margin-top: 12px;
-
+  display: inline-block;
+  padding: 10px 30px;
+  transition: 0.5s;
 }
 
 #featured-card-id .btn-get-started:hover {
-  background-color:#004EE8;
+  background-color:#020887;
   cursor:pointer;
 }
 

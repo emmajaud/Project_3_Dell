@@ -175,13 +175,13 @@
 
   <main id="main">
 
-    <a href=“byo1.html” class=“previous”>&#8249; Back </a>
+    <a href=“byo1.html” class=“previous” style="margin-left: 20px;padding: 8px 16px;">&#8249; Back </a>
 
     <div class="container">
       <div class="row">
         <div class="col-lg-11 mr-auto ml-auto">
   
-          <div class="card mt-4">
+          <div class="card ">
             <img class="card-img-top img-fluid" src="assets/dell_images/mockup.png" alt="">
             <div class="card-body">
               <h3 class="card-title">Your System Preview</h3>
@@ -223,8 +223,12 @@
                   <a class="dropdown-item" href="#">3</a>
                 </div>
               </div>
-              <div class="view-details">Edit</div>
-              <div class="view-details">Delete</div>
+              <div class="container">
+                <div class="row">
+                  <div id="edit" class="col-5 view-details">Edit</div>
+                <div id="delete" class="col-5 view-details" style="margin-left: auto;">Delete</div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -251,8 +255,12 @@
                   <a class="dropdown-item" href="#">3</a>
                 </div>
               </div>
-              <div class="view-details">Edit</div>
-              <div class="view-details">Delete</div>
+              <div class="container">
+                <div class="row">
+                  <div id="edit" class="col-5 view-details">Edit</div>
+                <div id="delete" class="col-5 view-details" style="margin-left: auto;">Delete</div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -279,8 +287,12 @@
                     <a class="dropdown-item" href="#">3</a>
                   </div>
                 </div>
-                <div class="view-details">Edit</div>
-                <div class="view-details">Delete</div>
+                <div class="container">
+                  <div class="row">
+                    <div id="edit" class="col-5 view-details">Edit</div>
+                  <div id="delete" class="col-5 view-details" style="margin-left: auto;">Delete</div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -307,8 +319,13 @@
                       <a class="dropdown-item" href="#">3</a>
                     </div>
                   </div>
-                  <div class="view-details">Edit</div>
-                  <div class="view-details">Delete</div>
+                  <div class="container">
+                    <div class="row">
+                      <div id="edit" class="col-5 view-details">Edit</div>
+                      <div id="delete" class="col-5 view-details" style="margin-left: auto;">Delete</div>
+                    </div>
+                  </div>
+                  
                 </div>
               </div>
             </div>
@@ -319,13 +336,13 @@
     <div class="container" style="padding-bottom: 48px;">
       <div class="add-cart" onclick="myFunction()">Add to Cart</div>
 
-    <script>
-      function myFunction() {
-      confirm("Items added to Cart");
-      }
-    </script>
+      <script>
+        function myFunction() {
+        confirm("Items added to Cart");
+        }
+      </script>
 
-    <div class="view-details">Add to Wishlist</div>
+      <div class="add-wishlist">Add to Wishlist</div>
     </div>
     
 
