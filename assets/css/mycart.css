@@ -7,14 +7,17 @@
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
 
+.cart-icon {
+  width: 24px;
+  height: 24px;
+}
+
 .btn-primary{
   background-color:#256EFF;
   color:white;
   font-family:'Roboto', sans-serif;
   border-color:#256EFF;
   border-radius: 8px;
-
-
 }
     
 .btn-primary:hover{
