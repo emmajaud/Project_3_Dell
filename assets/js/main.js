@@ -185,6 +185,21 @@
 
 
 
+// Preloader
+/*var preloader = document.getElementById('preloader');
+function preLoaderHandler(){
+  preloader.style.display = 'none';
+  console.log("preloader done")
+}
+$(document).ready(preLoaderHandler);
+
+function fade() {
+  $(".preloader").fadeOut("slow");  
+}*/
+//$(document).setTimeout(fade, 10000);
+
+//$(document).ready(fade)
+
 
 
 
