@@ -1,13 +1,13 @@
 .shipping-checkbox {
-    transform: scale(1.5);
-    -ms-transform: scale(1.5);
-    -webkit-transform: scale(1.5);
-    padding: 10px;
+  transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  padding: 10px;
 }
 
 .shipping-checkbox-label {
-    margin-top: 15px;
-    margin-left: 10px;
+  margin-top: 15px;
+  margin-left: 10px;
 }
 
 .cart-icon {
@@ -27,6 +27,7 @@
   font-family:'Roboto', sans-serif;
   border-color:#256EFF;
   border-radius: 8px;
+  transition: 0.5s;
 }
     
 .btn-primary:hover{
@@ -42,6 +43,7 @@
   border:1px;
   border-style: solid;
   border-radius: 8px;
+  transition: 0.5s;
 }
     
 .btn-outline-primary:hover{

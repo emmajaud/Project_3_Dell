@@ -15,6 +15,7 @@
   width:15%;
   margin-bottom:50px;
   margin-left: auto;
+  transition: 0.5s;
 }
 
 .add-cart:focus{

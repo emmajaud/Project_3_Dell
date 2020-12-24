@@ -52,6 +52,7 @@ p{
   width:15%;
   margin-bottom:16px;
   margin-left: auto;
+  transition: 0.5s;
 }
 
 .btn-primary:hover{

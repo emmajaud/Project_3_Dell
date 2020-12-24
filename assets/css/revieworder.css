@@ -17,6 +17,7 @@
   font-family:'Roboto', sans-serif;
   border-color:#256EFF;
   border-radius: 8px;
+  transition: 0.5s;
 }
     
 .btn-primary:hover{
@@ -32,6 +33,7 @@
   border:1px;
   border-style: solid;
   border-radius: 8px;
+  transition: 0.5s;
 }
     
 .btn-outline-primary:hover{

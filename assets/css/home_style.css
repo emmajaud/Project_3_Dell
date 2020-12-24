@@ -520,6 +520,7 @@ section {
   padding:10px;
   width:50%;
   margin-top:5px;
+  transition: 0.5s;
 }
 #byo-card-id .btn-get-started:hover {
   background-color:#020887;
