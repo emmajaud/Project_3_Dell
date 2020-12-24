@@ -186,20 +186,13 @@
 
 
 // Preloader
-/*var preloader = document.getElementById('preloader');
-function preLoaderHandler(){
+var preloader = document.getElementById('preloader');
+function fade(){
   preloader.style.display = 'none';
   console.log("preloader done")
+  preloader.fadeOut("slow");  
 }
-$(document).ready(preLoaderHandler);
-
-function fade() {
-  $(".preloader").fadeOut("slow");  
-}*/
-//$(document).setTimeout(fade, 10000);
-
-//$(document).ready(fade)
-
+$(document).ready(fade);
 
 
 
