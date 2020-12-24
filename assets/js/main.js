@@ -190,10 +190,10 @@ var preloader = document.getElementById('preloader');
 function fade(){
   preloader.style.display = 'none';
   console.log("preloader done")
-  preloader.fadeOut("slow");  
+  //preloader.fadeOut("slow");  
 }
 $(document).ready(fade);
-
+console.log("load done")
 
 
 
