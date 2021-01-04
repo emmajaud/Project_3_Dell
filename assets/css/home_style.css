@@ -637,3 +637,16 @@ section {
 	background: #000000 url("../dell_images/gif/dell-logo-animated\ 4.gif") no-repeat center;
 	z-index: 999;
 }
+
+
+
+
+
+
+#user-icon {
+  display: none;
+}
+
+.nav-inner li#signin {
+  display: block;
+}
