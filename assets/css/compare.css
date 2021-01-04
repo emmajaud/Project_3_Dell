@@ -43,3 +43,6 @@ h2{
   font-weight:medium;
 }
 
+#footer {
+  bottom: 0 !important;
+}
