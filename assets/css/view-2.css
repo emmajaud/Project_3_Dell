@@ -991,7 +991,7 @@ btn-light {
   margin: 1rem;
   margin-right: 0rem;
   padding: 1px;
-  border: solid rgba(9, 6, 6, 0.721);
+  border: 2px solid lightgrey;
 }
 
 .circle{
@@ -1002,11 +1002,12 @@ btn-light {
 }
 
 .var-circle.selected{
-  border: 2px solid lightgrey;
+  border: solid rgba(9, 6, 6, 0.721);
+  
 }
 
-.var-circle.selected .circle{
-  background: grey;
+.var-circle .circle.grey{
+  background-color: grey;
 }
 
 .var-circle .black{
