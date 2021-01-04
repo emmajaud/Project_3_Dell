@@ -650,3 +650,11 @@ section {
 .nav-inner li#signin {
   display: block;
 }
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
