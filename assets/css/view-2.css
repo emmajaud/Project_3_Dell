@@ -1001,7 +1001,7 @@ btn-light {
   border-radius: 50%;
 }
 
-.var-circle .selected{
+.var-circle.selected{
   border: 2px solid lightgrey;
 }
 
@@ -1009,7 +1009,7 @@ btn-light {
   background: grey;
 }
 
-.var-circle .red{
+.var-circle .black{
   background-color: black;
 }
 
