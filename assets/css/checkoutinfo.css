@@ -19,7 +19,10 @@
   color: red;
 }
 
-
+.btn:hover {
+  color: none !important;
+  text-decoration: none;
+}
 
 .btn-primary{
   background-color:#256EFF;
