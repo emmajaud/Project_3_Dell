@@ -46,3 +46,9 @@ h2{
 #footer {
   bottom: 0 !important;
 }
+
+@media screen and (max-width: 766px) and (min-width: 576px) {
+  .add-cart {
+    width: 100%;
+  }
+}
