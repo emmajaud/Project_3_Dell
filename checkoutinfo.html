@@ -194,18 +194,9 @@
                 <input type="text" class="form-control mb-3" placeholder="Address 2" aria-label="Address 2" id="inputAddress2Billing">
 
                 <div class="container">
-                    <div class="row justify-content-md-center">                
-                        <div class="btn-group col">
-                            <button type="button" class="btn btn-outline-dark">Country</button>
-                            <button type="button" class="btn btn-outline-dark dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                              <span class="sr-only">Toggle Dropdown</span>
-                            </button>
-                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                <a class="dropdown-item" href="#">United States</a>
-                                <a class="dropdown-item" href="#">Canada</a>
-                                <a class="dropdown-item" href="#">Mexico</a>
-                            </div>
-                        </div>
+                    <div class="row justify-content-md-center">
+                      
+                      <input type="text" class="form-control col mr-2" placeholder="City" aria-label="City" id="inputCity" >
 
                         <div class="btn-group col">
                             <button type="button" class="btn btn-outline-dark">State</button>
@@ -218,9 +209,19 @@
                                 <a class="dropdown-item" href="#">Texas</a>
                             </div>
                         </div>                
-
-                        <input type="text" class="form-control col mr-2" placeholder="City" aria-label="City" id="inputCity" >
                         <input type="number" class="form-control col" placeholder="Zip Code" aria-label="Zip Code" id="inputZipcode">
+
+                        <div class="btn-group col">
+                          <button type="button" class="btn btn-outline-dark">Country</button>
+                          <button type="button" class="btn btn-outline-dark dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <span class="sr-only">Toggle Dropdown</span>
+                          </button>
+                          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                              <a class="dropdown-item" href="#">United States</a>
+                              <a class="dropdown-item" href="#">Canada</a>
+                              <a class="dropdown-item" href="#">Mexico</a>
+                          </div>
+                      </div>
                     </div>
                 </div>
                 
@@ -239,19 +240,10 @@
                 <input type="text" class="form-control mb-3" placeholder="Address 2" aria-label="Address 2" id="inputAddress2Shipping">
 
                 <div class="container">
-                    <div class="row justify-content-md-center">                
-                        <div class="btn-group col">
-                            <button type="button" class="btn btn-outline-dark">Country</button>
-                            <button type="button" class="btn btn-outline-dark dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                              <span class="sr-only">Toggle Dropdown</span>
-                            </button>
-                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                <a class="dropdown-item" href="#">United States</a>
-                                <a class="dropdown-item" href="#">Canada</a>
-                                <a class="dropdown-item" href="#">Mexico</a>
-                            </div>
-                        </div>
-
+                    <div class="row justify-content-md-center">
+                      
+                      <input type="text" class="form-control col mr-2" placeholder="City" aria-label="City" id="inputCity" >
+                        
                         <div class="btn-group col">
                             <button type="button" class="btn btn-outline-dark">State</button>
                             <button type="button" class="btn btn-outline-dark dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -262,10 +254,20 @@
                                 <a class="dropdown-item" href="#">California</a>
                                 <a class="dropdown-item" href="#">Texas</a>
                             </div>
-                        </div>                
-
-                        <input type="text" class="form-control col mr-2" placeholder="City" aria-label="City" id="inputCity" >
+                        </div>           
                         <input type="number" class="form-control col" placeholder="Zip Code" aria-label="Zip Code" id="inputZipcode">
+
+                        <div class="btn-group col">
+                          <button type="button" class="btn btn-outline-dark">Country</button>
+                          <button type="button" class="btn btn-outline-dark dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <span class="sr-only">Toggle Dropdown</span>
+                          </button>
+                          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                              <a class="dropdown-item" href="#">United States</a>
+                              <a class="dropdown-item" href="#">Canada</a>
+                              <a class="dropdown-item" href="#">Mexico</a>
+                          </div>
+                      </div>
                     </div>
                 </div>
                 
@@ -333,7 +335,7 @@
                           </div>
                       </div>
 
-                      <div class="col-6">
+                      <div class="col-6 shipping-info">
                           <h5 class="mb-3">Important Shipping Information</h5>
                           <small>
                               This order contains several high cost items. Dell is not liable for any damage during the shipping process. 
@@ -347,7 +349,7 @@
                   </div>
                 </div>
                 <div class="d-flex flex-row-reverse bd-highlight mt-5">
-                  <button type="button" class="pt-2 pb-2 col-2 btn btn-primary"><a href="revieworder.html" style="color: white;">Continue</a></button>
+                  <button type="submit" class="pt-2 pb-2 col-2 btn btn-primary"><a href="revieworder.html" style="color: white;">Continue</a></button>
                   <button type="button" class="pt-2 pb-2 col-2 btn btn-outline-primary mr-auto">Previous</button>
                 </div>      
             </div>
