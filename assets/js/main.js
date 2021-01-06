@@ -186,6 +186,7 @@
 
 
 // Preloader
+/*
 var preloader = document.getElementById('preloader');
 function fade(){
   preloader.style.display = 'none';
@@ -193,7 +194,7 @@ function fade(){
   //preloader.fadeOut("slow");  
 }
 $(document).ready(fade);
-console.log("load done")
+console.log("load done")*/
 
 
 
