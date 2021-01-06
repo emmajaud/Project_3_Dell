@@ -192,7 +192,7 @@ function fade(){
   console.log("preloader done")
   //preloader.fadeOut("slow");  
 }
-$(document).ready(fade);
+//$(document).ready(fade);
 console.log("load done")
 
 

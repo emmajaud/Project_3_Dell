@@ -40,10 +40,10 @@
 
 }
 
-.byo1-description{
+h5.byo1-description{
   display:flex;
   justify-content: center;
-  margin-bottom:48px;
+  margin-bottom:48px !important;
 }
 
 .byo1-heading{
@@ -86,4 +86,8 @@ a.previous{
   background: #f1f1f1;
   position: absolute;
   z-index: 10px;
+}
+
+h5 {
+  margin: 16px 0 !important;
 }
