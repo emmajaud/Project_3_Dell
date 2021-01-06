@@ -52,3 +52,7 @@ h2{
     width: 100%;
   }
 }
+
+h5 {
+  margin: 16px 0 !important;
+}
