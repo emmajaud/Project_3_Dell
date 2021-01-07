@@ -62,3 +62,26 @@ h5 {
 .pagination{
   margin:50px;
 }
+
+.dropdown-toggle {
+  background-color: #256EFF !important;
+  border-color: #256EFF !important;
+  font-family: 'Roboto', sans-serif !important;
+}
+.dropdown-menu {
+  border: 1px solid white !important;
+  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25) !important;
+  transition: ease all 0.3s !important;
+}
+
+.dropdown-item:hover, .dropdown-item:focus {
+  color: #256EFF !important;
+  text-decoration: none;
+  background-color: #fff;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+  color: #fff;
+  text-decoration: none;
+  background-color: none !important;
+}
