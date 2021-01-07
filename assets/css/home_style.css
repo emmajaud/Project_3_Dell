@@ -368,6 +368,7 @@ path:hover {
   background: url("../dell_images/hero2.png");
   background-size: cover;
   position: relative;
+  background-position: center;
 }
 
 #hero .hero-container {
