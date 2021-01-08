@@ -164,10 +164,11 @@ button:focus, button:active {
 }
 
 .previous{
-  background-color: #f1f1f1;
+  margin-top: 50px;
+  margin-left: 20px;
   color: black;
-  margin: 32px;
-  padding: 20px;
+  position: absolute;
+  z-index: 10px;
 }
 
   
